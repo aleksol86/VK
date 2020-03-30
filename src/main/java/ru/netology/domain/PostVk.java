@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 public class PostVk {
     private boolean isFavorite;
-    private boolean ownersOnly;
+    private int ownersOnly;
 
     private String postType;
 
@@ -54,11 +54,11 @@ public class PostVk {
         this.count = count;
     }
 
-    public boolean isOwnersOnly() {
+    public int isOwnersOnly() {
         return ownersOnly;
     }
 
-    public void setOwnersOnly(boolean ownersOnly) {
+    public void setOwnersOnly(int ownersOnly) {
         this.ownersOnly = ownersOnly;
     }
 
